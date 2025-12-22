@@ -1,6 +1,6 @@
 class Solution {
     public void nextPermutation(int[] nums) {
-      
+        //[2, 1, 3] --> 
         int i=nums.length-2;
         while(i>=0 && nums[i]>=nums[i+1]){
             i--;
